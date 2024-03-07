@@ -1,0 +1,191 @@
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    avenir next,
+    avenir,
+    segoe ui,
+    helvetica neue,
+    helvetica,
+    Cantarell,
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9faf8;
+}
+
+.header-and-hero,
+.footer {
+  background-color: #1f2937;
+}
+
+.header-and-hero {
+  padding: 0 300px 0 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.header-logo,
+.call-to-action-main-text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.header-links {
+  gap: 16px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 100px 0;
+}
+
+.hero-text-and-button {
+  flex: 1;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-secondary-text,
+.footer,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-secondary-text {
+  margin: 5px 0;
+}
+
+.hero-button {
+  border: none;
+}
+
+.hero-image {
+  flex: 1;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.image-and-subtext {
+  max-width: 150px;
+}
+
+.image-and-subtext img {
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.image-subtext {
+  font-size: 18px;
+  text-align: center;
+  color: #444444;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 400px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-attribution {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 300px;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.call-to-action-subtext {
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
